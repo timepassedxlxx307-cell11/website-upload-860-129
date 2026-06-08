@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>搜索影视-日韩免费视频资源库</title>
+  <meta name="description" content="搜索日韩免费视频资源库中的最新影片、热播剧集、院线新片与高清版影视内容。">
+  <meta name="keywords" content="搜索,日韩免费视频,资源库,院线新片,热播剧集,高清版,在线播放,视频资源,最新影片,电影">
+  <link rel="stylesheet" href="./assets/site.css">
+  
+</head>
+<body>
+  
+<header class="site-header">
+  <div class="site-header-inner">
+    <a class="brand" href="index.html" aria-label="日韩免费视频资源库">
+      <span class="brand-mark">映</span>
+      <span class="brand-name">日韩免费视频资源库</span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a class="nav-link " href="index.html">首页</a><a class="nav-link " href="categories.html">分类</a><a class="nav-link " href="rankings.html">排行榜</a><a class="nav-link is-active" href="search.html">搜索</a>
+    </nav>
+    <form class="top-search" action="search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片、类型或地区" autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="mobile-menu-button" type="button" aria-label="展开导航" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <div class="mobile-panel" hidden>
+    <form class="mobile-search" action="search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片">
+      <button type="submit">搜索</button>
+    </form>
+    <nav aria-label="移动导航">
+      <a class="mobile-link " href="index.html">首页</a><a class="mobile-link " href="categories.html">分类</a><a class="mobile-link " href="rankings.html">排行榜</a><a class="mobile-link is-active" href="search.html">搜索</a>
+    </nav>
+  </div>
+</header>
+  
+<main class="page-main">
+  <section class="page-hero compact-hero">
+    <div class="container">
+      <span class="eyebrow dark">全站搜索</span>
+      <h1>搜索影视</h1>
+      <p>输入影片名称、地区、类型、年份或标签，快速找到想看的高清影视资源。</p>
+      <form class="page-search-form" id="search-page-form" action="search.html" method="get">
+        <input id="search-page-input" type="search" name="q" placeholder="输入影片名称或关键词" autocomplete="off">
+        <button type="submit">搜索</button>
+      </form>
+    </div>
+  </section>
+  <section class="container content-section">
+    <div class="movie-grid" id="search-results"></div>
+  </section>
+</main>
+  
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <strong>日韩免费视频资源库</strong>
+      <p>高清影视内容在线播放，精选院线新片、热播剧集与经典日韩剧集。</p>
+    </div>
+    <div class="footer-links">
+      <a href="index.html">首页</a>
+      <a href="categories.html">分类</a>
+      <a href="rankings.html">排行榜</a>
+      <a href="search.html">搜索</a>
+    </div>
+  </div>
+</footer>
+  <script src="./assets/search-data.js"></script>
+  <script src="./assets/site.js"></script>
+  
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "movie_count": 2000,
+  "detail_pages": 2000,
+  "category_pages": 12,
+  "category_counts": {
+    "domestic-drama": 167,
+    "hd-cinema": 167,
+    "suspense-crime": 167,
+    "urban-romance": 167,
+    "comedy-life": 167,
+    "action-adventure": 167,
+    "fantasy-scifi": 167,
+    "youth-campus": 167,
+    "history-costume": 166,
+    "animation-anime": 166,
+    "documentary-variety": 166,
+    "global-selection": 166
+  },
+  "m3u8_sources_unique": 20,
+  "cover_rule": "cover_number = ((N - 1) % 150) + 1, referenced as ./X.jpg",
+  "logo": "国产电视剧视频免费在线观看"
+}
